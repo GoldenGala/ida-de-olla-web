@@ -85,4 +85,19 @@ table { border-collapse: collapse; width: 100%; font-size: 15px; }
 th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--bruma); vertical-align: top; }
 th { color: var(--gris); font-weight: 600; }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+header a.idioma {
+  font-family: 'Archivo', system-ui, sans-serif;
+  text-transform: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--pizarra);
+}
+
 footer { margin-top: 48px; color: var(--gris); font-size: 14px; }
